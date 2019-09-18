@@ -1,0 +1,521 @@
+@import 'colors';
+@import 'fonts';
+
+
+
+@media screen and (min-width:1024px){
+//Container carousel start
+
+.colCarouselContainers{
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.formatSlider{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.carousel-inner{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.formatSlider{
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    }
+    
+    .jumbotronSlider{
+    border-radius: 29px;
+    margin: 100px 35px 5px 33px;
+    padding: 0px;
+    height: 288px;
+    background-color: $color4;
+    box-shadow: -2px 2px 10px $color6;
+    }
+
+    .imgColContainer2{
+      display:none !important;
+    }
+    
+    .imgcellBankContainer{
+    margin: 30px 45px 0px 130px;
+    padding: 0px;
+    height: 258px;
+    }
+
+    .txtSmsSlide{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    }
+    
+    .txtSlide{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    .descritiveTextSlide{
+    margin: 5px 0px 0px 0px;
+    }
+    
+    .smsLinkSlide{
+    margin-top: 86px;
+    }
+    
+    .whatsLinkSlide{
+    margin-top: 20.75px;
+    }
+    
+    .chatbotLinkSlide{
+    margin-top: 20.75px;
+    }
+
+    .smsLinkSlide2{
+    margin: 0px 22.92px 0px 0px;
+    }
+    
+    .whatsLinkSlide2{
+    margin: 0px 22.92px 0px 0px;
+    }
+    
+    .chatbotLinkSlide2{
+    margin: 0px 22.92px 0px 0px;
+    }    
+    
+    .carousel-control-prev{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    }
+    
+    .carousel-control-next{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    }
+
+    .rowLinkContainer{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin: 36px 0px 0px 0px;
+        visibility: hidden;
+    }
+    //Container carousel end
+
+    //Texts carousel start
+.txtSlides{
+    color: $color1;
+    }
+    
+    .txtSmsSlide{
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .txtSlide{
+      font-weight: 600;
+      font-size: 28px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .descritiveTextSlide{
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .linkSlide{
+      color: $color1;
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    //Texts carousel end
+
+    //Images carousel start
+.smsLinkSlide{
+  width: 33.8px;
+  height: 18.25px;
+}
+
+.whatsLinkSlide{
+  width: 28.13px;
+  height: 28.13px;
+}
+
+.chatbotLinkSlide{
+  width: 27.84px;
+  height: 29.59px;
+}
+
+.smsLinkSlide2{
+  width: 33.8px;
+  height: 18.25px;
+}
+
+.whatsLinkSlide2{
+  width: 28.13px;
+  height: 28.13px;
+}
+
+.chatbotLinkSlide2{
+  width: 27.84px;
+  height: 29.59px;
+}    
+//Images carousel end
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container carousel start
+.colCarouselContainers{
+  display: block;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+}
+
+.formatSlider{
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    }
+    
+    .jumbotronSlider{
+    border-radius: 29px;
+    margin: 100px 35px 5px 33px;
+    padding: 0px;
+    height: 311px;
+    background-color: $color4;
+    box-shadow: -2px 2px 10px $color6;
+    }
+    .imgColContainer2{
+      display:none !important;
+    }
+    
+    .imgcellBankContainer{
+    margin: 30px 45px 0px 40px;
+    padding: 0px;
+    height: 280px;
+    }
+
+    .txtSmsSlide{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    }
+    
+    .txtSlide{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    .descritiveTextSlide{
+    margin: 10px 0px 0px 0px;
+    }
+    
+    .smsLinkSlide{
+    margin-top: 86px;
+    visibility: hidden;
+    }
+    
+    .whatsLinkSlide{
+    margin-top: 20.75px;
+    visibility: hidden;
+    }
+    
+    .chatbotLinkSlide{
+    margin-top: 20.75px;
+    visibility: hidden;
+    }
+
+    .smsLinkSlide2{
+    margin: 0px 22.92px 0px 0px;
+    }
+    
+    .whatsLinkSlide2{
+    margin: 0px 22.92px 0px 0px;
+    }
+    
+    .chatbotLinkSlide2{
+    margin: 0px 22.92px 0px 0px;
+    }    
+    
+    .carousel-control-prev{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    }
+    
+    .carousel-control-next{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    }
+
+    .rowLinkContainer{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin: 15px 0px 0px 30px;
+    }
+
+    .txtSlides{
+        margin: 20px 20px 0px 30px;
+        }
+    //Container carousel end
+
+    //Texts carousel start
+.txtSlides{
+    color: $color1;
+    }
+    
+    .txtSmsSlide{
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .txtSlide{
+      font-weight: 600;
+      font-size: 28px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .descritiveTextSlide{
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .linkSlide{
+      color: $color1;
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    //Texts carousel end
+
+    //Images carousel start
+.smsLinkSlide{
+  width: 33.8px;
+  height: 18.25px;
+}
+
+.whatsLinkSlide{
+  width: 28.13px;
+  height: 28.13px;
+}
+
+.chatbotLinkSlide{
+  width: 27.84px;
+  height: 29.59px;
+}
+
+.smsLinkSlide2{
+  width: 33.8px;
+  height: 18.25px;
+}
+
+.whatsLinkSlide2{
+  width: 28.13px;
+  height: 28.13px;
+}
+
+.chatbotLinkSlide2{
+  width: 27.84px;
+  height: 29.59px;
+}    
+//Images carousel end
+}
+    
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container carousel start
+.colCarouselContainers{
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  justify-items: center;
+align-items: center;
+}
+
+.formatSlider{
+    justify-items: center;
+    align-items: center;  
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .jumbotronSlider{
+      display: flex;
+    border-radius: 29px;
+    margin: 49px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    width: 318px;
+    height: 615px;
+    background-color: $color4;
+    box-shadow: -2px 2px 10px $color6;
+    }
+    
+    .imgColContainer1{
+      margin: auto auto auto auto;
+      display:none !important;
+      padding: 0px 0px 0px 0px;
+    }
+
+    .imgColContainer2{
+    display: flex;
+    margin:auto;
+    padding: 0px 0px 0px 0px;
+    }
+
+    .imgcellBankContainer{
+    padding: 0px 0px 0px 0px;
+    margin: 15px auto auto auto;
+    height: 280px;
+    }
+
+    .txtSmsSlide{
+    margin: 26.41px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .txtSlide{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .descritiveTextSlide{
+    margin: 10px auto auto auto;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .smsLinkSlide{
+      display:none !important;
+      margin: auto;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .whatsLinkSlide{
+      display:none !important;
+      margin: auto;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .chatbotLinkSlide{
+      display:none !important;
+      margin: auto;
+      padding: 0px 0px 0px 0px;
+    }
+
+    .smsLinkSlide2{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .whatsLinkSlide2{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    }
+    
+    .chatbotLinkSlide2{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    }    
+    
+    .carousel-control-prev{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    }
+    
+    .carousel-control-next{
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    }
+
+    .rowLinkContainer{
+        margin: 33px auto auto auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .colLinkContainer{
+    display:block;
+    margin:auto;
+    padding: 0px 0px 0px 0px;
+    }
+
+    .txtSlides{
+        margin: 20px 20px auto 20px;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        }
+    //Container carousel end
+
+    //Texts carousel start
+    .txtSlides{
+    color: $color1;
+    }
+    
+    .txtSmsSlide{
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .txtSlide{
+      font-weight: 600;
+      font-size: 25px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .descritiveTextSlide{
+      font-weight: 400;
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .linkSlide{
+      color: $color1;
+      font-weight: 400;
+      font-size: 14px;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .imgContactContainer{
+      display:none !important;
+      margin: auto;
+      padding: 0px 0px 0px 0px;
+    }
+    //Texts carousel end
+
+    //Images carousel start
+.smsLinkSlide{
+  width: 33.8px;
+  height: 18.25px;
+  padding: 0px 0px 0px 0px;
+}
+
+.whatsLinkSlide{
+  width: 28.13px;
+  height: 28.13px;
+  padding: 0px 0px 0px 0px;
+}
+
+.chatbotLinkSlide{
+  width: 27.84px;
+  height: 29.59px;
+  padding: 0px 0px 0px 0px;
+}
+
+.smsLinkSlide2{
+  width: 33.8px;
+  height: 18.25px;
+  padding: 0px 0px 0px 0px;
+}
+
+.whatsLinkSlide2{
+  width: 28.13px;
+  height: 28.13px;
+  padding: 0px 0px 0px 0px;
+}
+
+.chatbotLinkSlide2{
+  width: 27.84px;
+  height: 29.59px;
+  padding: 0px 0px 0px 0px;
+}    
+//Images carousel end
+}

@@ -1,0 +1,364 @@
+@import 'colors';
+@import 'fonts';
+@import 'images';
+
+@media screen and (min-width:1024px){
+//Container header start
+.headerContainer{
+    margin: 40px 38px 0px 38px;
+    padding: 0px;
+    }
+    
+  .navigateLinksContainer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+      overflow: hidden;
+    }
+
+
+.headerContainer{
+    .navigateLinksContainer{
+        .navbar{
+            .collapse{
+                display: flex;
+                justify-content: flex-end;
+                overflow: hidden;
+            }
+        }
+    }
+}
+  .alignTextContainer{
+      margin-left: 7px;
+      margin-right: 7px;
+      padding: 0px;
+    }
+//Container header end
+
+//Texts header start
+.configText2{
+    color:  $color4;
+    font-size: 12px;
+    font-family: Raleway;
+    font-weight: 600;
+}
+.btnProbe{
+    color:  $color4;
+    font-size: 12px;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+
+.headerContainer{
+    .navigateLinksContainer{
+        .navbar{
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .configText1{
+                            color: $color5;
+                            font-size: 12px;
+                            font-family: Raleway;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Texts header end
+
+.imgabbla2{
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container header start
+/*div.row.headerContainer{
+    background-color: $color1;
+}*/
+
+.imgabbla2{
+    display: none;
+}
+
+.change{
+    background-color: $color30; 
+    .imgabbla2{
+        display: block;
+        height: 39px;
+        width: 138px;
+    }
+    .imgabbla1{
+        display: none;
+    }
+    span.navbar-toggler-icon{
+        background: no-repeat;
+        background-image: url(../images/withe_x.png);
+    }
+}
+
+  .navigateLinksContainer{
+      margin: auto;;
+      padding: 0px 0px 0px 0px;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+
+  .alignTextContainer{
+      margin: auto 7px auto 7px;
+      padding: 0px 0px 0px 0px;
+    }
+//Container header end
+
+//Texts header start
+.navbar-toggler {
+    border: none !important;
+    
+  }
+
+.headerContainer{
+        margin: 0px 0px 0px 0px;
+        padding: 41px 58.39px 0px 34px;
+    .navigateLinksContainer{
+        
+        .navbar{
+            
+            .collapse{
+                border-top: 1px solid $color1;
+                .navbar-nav{
+                    
+                    .nav-item{
+                        
+                        .configText1{
+                            color: $color5;
+                            font-size: 28px;
+                            font-family: Raleway;
+                            font-weight: 600;
+                            padding: 25px 0px 25px 30px;
+                        }
+                        .configText2{
+                            color:  $color1;
+                            font-size: 28px;
+                            font-family: Raleway;
+                            font-weight: 600;
+                            padding: 25px 0px 25px 30px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btnProbe{
+    color: $color1 !important;
+    background-color: $color5 !important;
+    border-color: $color5 !important;
+    height: 100px !important;
+    border-radius: 0px !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    width: 100%;
+    
+}   
+
+//Texts header end
+
+//Toggler header end
+
+.show{
+        background-color: $color30;  
+        
+        .navbar-toggler {
+            border: none !important;
+            
+          }
+         
+  }
+
+/*  .navigateLinksContainer{
+    background-color: $color30 !important; 
+    margin: 0px 0px 0px 0px;
+}*/
+
+.collapsing{
+    background-color: $color30;
+    border-top: 1px solid $color1;
+    .configText1{
+        color: $color5 !important;
+        font-size: 28px;
+        font-family: Raleway;
+        font-weight: 600;
+
+        padding: 25px 0px 25px 30px;
+    }
+    .configText2{
+        color:  $color1 !important;
+        font-size: 28px;
+        font-family: Raleway;
+        font-weight: 600;
+
+        padding: 25px 0px 25px 30px;
+    }
+    .navbar-toggler {
+        border: none !important;
+        
+      }
+      
+}
+
+
+
+//Toggler header end
+}
+
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container header start
+/*div.row.headerContainer{
+    background-color: $color1;
+}*/
+
+.imgabbla2{
+    display: none;
+}
+
+.change{
+    background-color: $color30; 
+    .imgabbla2{
+        display: block;
+        height: 39px;
+        width: 138px;
+    }
+    .imgabbla1{
+        display: none;
+    }
+    span.navbar-toggler-icon{
+        background: no-repeat;
+        background-image: url(../images/withe_x.png);
+    }
+}
+
+  .navigateLinksContainer{
+      margin: auto;;
+      padding: 0px 0px 0px 0px;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+
+  .alignTextContainer{
+      margin: auto 7px auto 7px;
+      padding: 0px 0px 0px 0px;
+    }
+//Container header end
+
+//Texts header start
+.navbar-toggler {
+    border: none !important;
+    
+  }
+
+.headerContainer{
+        margin: 0px 0px 0px 0px;
+        padding: 26px 25px 0px 15px;
+    .navigateLinksContainer{
+        
+        .navbar{
+            
+            .collapse{
+                border-top: 1px solid $color1;
+                .navbar-nav{
+                    
+                    .nav-item{
+                        
+                        .configText1{
+                            color: $color5;
+                            font-size: 20px;
+                            font-family: Raleway;
+                            font-weight: 600;
+                            padding: 25px 0px 14px 0px;
+                        }
+                        .configText2{
+                            color:  $color1;
+                            font-size: 20px;
+                            font-family: Raleway;
+                            font-weight: 600;
+                            padding: 14px 0px 14px 0px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btnProbe{
+    color: $color1 !important;
+    background-color: $color5 !important;
+    border-color: $color5 !important;
+    height: 100px !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-align: center;
+    width: 100%;
+    
+}   
+
+//Texts header end
+
+//Toggler header end
+
+.show{
+        background-color: $color30;  
+        
+        .navbar-toggler {
+            border: none !important;
+            
+          }
+         
+  }
+
+/*  .navigateLinksContainer{
+    background-color: $color30 !important; 
+    margin: 0px 0px 0px 0px;
+}*/
+
+.collapsing{
+    background-color: $color30;
+    border-top: 1px solid $color1;
+    .configText1{
+        color: $color5 !important;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 600;
+
+        padding: 25px 0px 14px 0px;
+    }
+    .configText2{
+        color:  $color1 !important;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: 600;
+
+        padding: 14px 0px 14px 0px;
+    }
+    .navbar-toggler {
+        border: none !important;
+        
+      }
+      
+}
+
+
+
+//Toggler header end
+}

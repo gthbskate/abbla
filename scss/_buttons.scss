@@ -1,0 +1,26 @@
+//Buttons start
+
+    .btn-warning{
+        color: $color1;
+        background-color: $color5;
+        border-color: $color5;
+        width: 256px;
+        height: 48px;
+        border-radius: 4px;
+        box-shadow: -2px 2px 6px $color6;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .btn-warning:HOVER{
+        color: $color33;
+        background-color: $color32;
+        border-color: $color32;
+        width: 256px;
+        height: 48px;
+        border-radius: 4px;
+        box-shadow: -2px 2px 6px $color32;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+//Buttons end

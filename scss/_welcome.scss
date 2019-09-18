@@ -1,0 +1,70 @@
+@import 'colors';
+@import 'fonts';
+@import 'images';
+
+@media screen and (min-width:1024px){
+//Container welcome start
+.welcomeContainer{
+    margin: 164px 170px 6.63px 170px;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+  }
+//Container welcome end
+
+//Texts welcome start
+.welcomeMessage{
+    font-weight: 700;
+    font-size: 59px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+//Texts welcome end
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+//Container welcome start
+.welcomeContainer{
+    margin: 95.17px 0px 0px 0px;
+    justify-items: center;
+    align-items: center;
+    padding: 0px;
+    overflow: hidden;
+  }
+//Container welcome end
+
+//Texts welcome start
+.welcomeMessage{
+    font-weight: 700;
+    font-size: 37px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+//Texts welcome end
+}
+
+@media screen and (min-width: 359px) and (max-width: 767px){
+//Container welcome start
+.welcomeContainer{
+    margin: 77.95px 23px 0px 23px;
+    justify-items: center;
+    align-items: center;
+    padding: 0px;
+    overflow: hidden;
+  }
+//Container welcome end
+
+//Texts welcome start
+.welcomeMessage{
+    font-weight: 700;
+    font-size: 30px;
+    color: $color4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+//Texts welcome end
+}
